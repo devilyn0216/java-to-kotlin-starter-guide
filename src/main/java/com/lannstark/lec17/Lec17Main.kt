@@ -41,3 +41,10 @@ private fun filterFruits(
     }
     return results
 }
+
+private fun filterFruits2(
+    fruits: List<Fruit>,
+    filter: (Fruit) -> Boolean,
+): List<Fruit> {
+    return fruits.filter(filter)
+}
