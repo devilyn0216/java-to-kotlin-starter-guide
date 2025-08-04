@@ -20,9 +20,9 @@ class Person(
     
     constructor(name: String): this(name, 1)
 
-    fun isAdult(): Boolean {
-        return age >= 20
-    }
+//    fun isAdult(): Boolean {
+//        return age >= 20
+//    }
     
     val isAdult: Boolean
         get() = age >= 20
